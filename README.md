@@ -10,3 +10,5 @@ Referências e inspirações:
 3- https://g1 .globo.com/ac/acre/ 
 
 4- https://chat.openai.com/
+
+A principio, esse projeto apresentado é uma adaptação simplificada de um projeto anterior feito com javascript. Porém, nessa versão não utilizei javascript, atendendo os requisitos do trabalho solicitado pelo professor.
