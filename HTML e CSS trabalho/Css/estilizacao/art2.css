@@ -1,0 +1,69 @@
+
+.TituloImagem-container {
+    position: relative; /* Permite o posicionamento absoluto para elementos filhos */
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.TituloImagem-container img {
+    width: 100%; 
+    height: 400px; /* Altura fixa para a imagem */
+}
+
+.texto-image {
+  
+    position: absolute; /*posicionamento SOBRE a imagem */
+    margin: 0;
+    bottom: 20px;
+    
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 5px; 
+   
+}
+
+.noticia {
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
+.noticia h2 {
+    padding: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.noticia p {
+    padding: 10px;
+   
+        font-family: Arial;
+        font-size: 1.4em;
+        max-width: 98%; /* Limita a largura máxima do parágrafo para não ultrapassar a tela */
+        word-wrap: break-word; /* Permite quebrar palavras longas */
+        white-space: normal; /* Permite a quebra de linha */
+}
+
+.locais-vacina {
+    list-style-type: disc; /* tipo de marcador: disco */
+    padding-left: 20px; /* alinhando os discos */
+    font-family: Arial; /* Estilo da fonte */
+    font-size: 1.2em;
+}
+
+.locais-vacina li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+
+        
+     
+
+
+
+      

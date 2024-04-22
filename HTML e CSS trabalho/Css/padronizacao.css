@@ -1,0 +1,118 @@
+/*CORPO DA PAGINA.INICIO*/
+*{
+
+    margin: 0;   
+    padding: 0;  
+    box-sizing: border-box;
+
+}
+
+body{
+
+   display: flex;
+   flex-wrap: wrap;
+
+   
+   margin: 3px; 
+   flex: 1 1  200vw;
+   
+
+}
+
+ header, main, footer{
+
+    background-color:white;
+    display: flex;
+    
+}
+
+header{
+    background-color: rgb(200, 0, 0);
+    flex: 1 1  100vw;
+    height: 80px;
+    
+}
+
+
+
+
+footer{
+
+    flex: 1 1 200vw;
+    height: 100px;
+    background-color: rgb(200, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+/*CORPO DA PARGINA. FIM*/
+
+
+/*Header logo*/
+
+header h1{
+           
+    margin: auto;
+    color: white;
+    font-style: Arial;
+    font-weight: bolder; 
+    font-size:xx-large;     
+}
+
+
+
+
+
+/*Botoes:Inicio*/
+.inicio-btn {
+    color: white; /* Cor do texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-family: Arial;
+    font-size: 1.2em; /* Tamanho da fonte */
+    font-weight: bold;
+    
+}
+
+.inicio-btn:hover {
+    background-color: rgba(100, 100, 100, 0.5); /* Cor ao passar o mouse */
+}
+
+
+
+.rodape-left {
+    flex: 1;
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+    font-size: larger;
+  }
+  
+  .rodape-right {
+    display: flex;
+    align-items: center; 
+    margin-right: 10px;
+  }
+  
+ 
+  .rodape-right a {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px 20px; /* tamanho do link */
+    background-color: rgb(50, 50, 50);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    
+  }
+  
+ 
+  .rodape-right a:hover {
+    background-color: rgb(100, 100, 100);
+  }
+/*Botoes: fim*/

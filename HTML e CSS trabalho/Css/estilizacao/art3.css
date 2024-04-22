@@ -1,0 +1,69 @@
+
+
+        .TituloImagem-container {
+            position: relative; /* Permite o posicionamento absoluto para elementos filhos */
+            width: 100%; /* Largura da imagem */
+            margin: 0;
+            display: flex;
+            align-items: center;
+            
+        }
+        
+        .TituloImagem-container img {
+            width: 100%; /* A imagem ocupa a largura do contêiner */
+            height: 400px; /* Altura fixa para a imagem */
+        }
+        
+        .texto-image {
+          
+            position: absolute; /* Permite posicionamento sobre a imagem */
+            margin: 0;
+            bottom: 20px; /* 20px do fundo */
+            
+            color: white; /* Cor do texto */
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+            padding: 10px; /* Espaçamento ao redor do texto */
+            border-radius: 5px; /* Bordas arredondadas */
+            
+        }
+
+
+
+        .noticia {
+            background-color: white; /* Fundo branco para a seção de notícia */
+            padding: 20px; /* Espaçamento ao redor do texto */
+            border-radius: 10px; /* Bordas arredondadas para estética */
+            margin-top: 20px; /* Espaçamento entre a imagem e o texto da notícia */
+        }
+     
+        .noticia h2 {
+            padding: 20px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .noticia p {
+            padding: 10px;
+           
+                font-family: Arial;
+                font-size: 1.4em;
+                max-width: 98%; /* Limita a largura máxima do parágrafo para não ultrapassar a tela */
+                word-wrap: break-word; /* Permite quebrar palavras longas */
+                overflow-wrap: break-word; /* Alternativa para o mesmo comportamento */
+                text-overflow: ellipsis; /* Reticências para indicar truncamento */
+                white-space: normal; /* Permite a quebra de linha */
+        }
+
+        .locais-vacina {
+            list-style-type: disc; /* Define o tipo de marcador como disco */
+            padding-left: 20px; /* Para alinhar corretamente com os discos */
+            font-family: Arial; /* Estilo da fonte */
+            font-size: 1.2em; /* Tamanho do texto para facilitar a leitura */
+        }
+        
+        .locais-vacina li {
+            margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+        }
+
+
+       
