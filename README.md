@@ -1,4 +1,4 @@
-# Criaçao-de-um-site-simples-utilizando-HTML-e-CSS
+# Criaçâo-de-um-site-simples-utilizando-HTML-e-CSS
 
 Este trabalho foi solicitado pelo professor Francisco Passos em sala de aula. O tema do projeto é um jornal, que o batizei do Jornal Acre, onde conterá notícias e informações do estado do Acre ao usuário de forma simples e rápida. Na primeira etapa do meu projeto criei uma estrutura padrão para o site principal e seus subsites, utilizando flexbox. Na segunda etapa, utilizei os conhecimentos adquiridos na sala de aula e nas referências acima, para fazer a formatação do conteúdo do site. 
 
