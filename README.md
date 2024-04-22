@@ -8,4 +8,5 @@ Referências e inspirações:
 1- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
 2- https://youtu.be/sSkmBxsaJWg?si=nezp985ed_gGgVao 
 3- https://g1 .globo.com/ac/acre/ 
+
 4- https://chat.openai.com/
