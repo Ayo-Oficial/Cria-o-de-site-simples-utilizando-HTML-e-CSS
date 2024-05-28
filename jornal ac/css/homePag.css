@@ -1,0 +1,149 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacer {
+    height: 400px;
+}
+
+nav {
+    width: 100%;
+    max-width: 600px; /* Limite de largura para a nav */
+    margin: 0 auto; /* Centraliza a nav horizontalmente */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Itens empilhados verticalmente */
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.nav-item a {
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 10px; /* Espaçamento entre âncora e imagem */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    max-width: 100%; /* Garante que o texto não ultrapasse o tamanho do container */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse o tamanho do container */
+    text-overflow: ellipsis; /* Adiciona reticências (...) no final do texto cortado */
+}
+
+.nav-item img {
+    width: 120px;
+    height: 120px;
+    margin-left: 10px; /* Espaçamento entre imagem e âncora */
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+footer span {
+    color: white;
+    margin-right: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(53, 50, 50);
+    border-radius: 16%;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 60px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    .nav-list {
+        padding: 0 10px;
+    }
+
+    .nav-item a {
+        font-size: 16px;
+    }
+
+    .nav-item img {
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+    .nav-item img {
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+    .nav-item img {
+        width: 110px;
+        height: 110px;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .nav-item img {
+        width: 120px;
+        height: 120px;
+        margin-left: 10px;
+    }
+}
